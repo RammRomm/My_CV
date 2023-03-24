@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en" class="has-navbar-fixed-top">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <title>Rama Bitar's Resume</title>
+<script src="script.js"></script>
+</head>
+<body >
+
+<header>
+
+  <nav class="navbar is-fixed-top is-danger has-shadow" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="#">
+        <img src="cool.svg" width="100px" height="150px">
+      </a>
+  
+      <a role="button" class="navbar-burger " aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+       
+      </div>
+  
+      <div class="navbar-end">
+        <a class="navbar-item" href="#home">
+          Home
+        </a>
+  
+        <a class="navbar-item is-hoverable" href="#about">
+            About 
+        </a>
+  
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" >
+            More
+          </a>
+  
+          <div class="navbar-dropdown is-boxed">
+            <a class="navbar-item" href="#services">
+              Services
+            </a>
+            <a class="navbar-item" href="#work">
+              Work
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item" href="#testimonials">
+              Testimonials
+            </a>
+            <hr class="navbar-divider">
+            <a class="navbar-item" href="#contact">
+              Contact
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+</header>
+
+<!--  this to make a progress bar in the website using scroll-->
+
+
+<div class="header">
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+</div>
+
+
+
+<section class="banner section " id="home">
+  <div class="textBx  p-5 m-5"> 
+  <h1 class="title is-spaced ">Hello, I'm  <br> <span class="title "> Rama Bitar</span></h1>
+       <h3 class="subtitle ">I'm <span class="color"> Front End Web Developer</span> </h3>
+       <a href="#about" class="btn button is-danger">About Me</a>
+  </div>
+  </section>
+
+
+  
+  <section class="about section " id="about">
+    <div class="heading">
+    <h2 class="title m-5 has-text-centered">About Me</h2>
+    </div>
+    <div class=" columns">
+    <div class="contentBx column is-half">
+        <h3 class="subtitle ">I'm a junior FrontEnd Web Developer</h3>
+    <p class="has-text-left">
+      My name is Rama Bitar, <br>
+      I am from Syria, Damascus. <br>
+      I am a hard working person, I am always looking forward improving myself <br><br> 
+      My Motto is : <br> <strong class="color"> Develop a passion for learning. if you do you will never cease to grow </strong> <br>
+     One of my Best strength point is: <strong>  I beleive that the hardwork make the dream work </strong>
+      </p>
+    </div>
+    <div  class=" column ">
+     <img src="resources/pink steps.jpg" alt="" class="image">
+    </div >
+    </div>
+    </section>
+    
+
+    <section class="section services" id="services">      
+      <div class="heading">
+        <h2 class="title m-5 has-text-centered">My Services</h2>
+        <p class="subtitle m-5 p-5 has-text-centered"> Currently I am working on projects using below technologies  </p>
+
+      </div>  
+    
+     
+       
+       <div class="content columns is-multiline is-centered  ">
+        <div class="servicesBx column  has-text-centered  is-3 m-5 p-5   ">               
+          <i class="fa-brands  fa-html5" style="font-size: 50px;"> </i>
+          <h2 class="title ">HTML</h2>
+          <p>The Basic Language to build and structure a web page </p>
+        </div>
+
+         <div class="servicesBx column   has-text-centered   is-3 m-5 p-5 ">               
+           <i class="fa-brands  fa-css3-alt" style="font-size: 50px;"> </i>
+             <h2 class="title">CSS</h2>
+             <p>The presentation of a web page.. it gives the website it's look and layout </p>
+            </div>
+     
+            
+            <div class="servicesBx column   has-text-centered  is-3 m-5 p-5 ">               
+           <i class="fa-brands  fa-css3" style="font-size: 50px;"> </i>
+             
+             <h2 class="title">Bulma</h2>
+             <p> A great CSS framework contains predefined styles for elements </p>
+            </div>
+     
+            
+     
+            <div class="servicesBx column  has-text-centered  is-3 m-5 p-5">               
+             <i class="fa-brands  fa-sass" style="font-size: 50px;"> </i>
+             <h2 class="title">Sass</h2>
+             <p>CSS pre-processor, it is an extension to CSS</p>
+            </div>
+
+
+            <div class="servicesBx column  has-text-centered   is-3 m-5 p-5">   
+           <i class="fa-brands fa-js-square " style="font-size: 50px;"> </i>
+     
+                <h2 class="title">Vanila JS</h2>
+                <p>Make the web pages more dynamic and user-friendly</p>
+               </div>
+               <div class="servicesBx column  has-text-centered  is-3 m-5 p-5">         
+                       
+           <i class="fa-brands  fa-react" style="font-size: 50px;"> </i>
+                
+                <h2 class="title">React</h2>
+                <p> A frontend JavaScript framework, it is a tool for building UI components</p>
+               </div>
+        
+      </div>
+     </section>
+     
+
+
+
+
+
+     <section class="section work" id="work">
+      <div class="heading">
+      <h2 class="title m-5 has-text-centered">  My latest work </h2>
+      <p class="subtitle m-5 p-5 has-text-centered">Here are some of my latest works, take a look and give me your opinion </p>
+      </div>
+      
+       <div class="content columns is-multiline is-centered">
+         <div class="workBx column is-5 m-5">
+          <a href="https://rammromm.github.io/Next-for-Technology/"><img src="resources/W1.png" alt="Next landpage"></a>
+         </div>
+         <div class="workBx column is-5 m-5">
+          <a href="https://rammromm.github.io/Water/"><img src="resources/W2.png" alt="cool water drop"></a>
+        </div>
+        <div class="workBx column is-5 m-5">
+          <a href="https://rammromm.github.io/SEO/"><img src="resources/W3.svg" alt="SEO website"></a>
+        </div>
+        <div class="workBx column is-5 m-5">
+          <a href="https://rammromm.github.io/krypton/"><img src="resources/W4.svg" alt=""></a>
+        </div>
+        
+        </div>
+      </div>
+      
+      </section>
+
+
+
+
+
+      
+      <section class="testimonial section" id="testimonial">
+
+        <div class="heading">
+        <h2 class="title m-5 has-text-centered">Testimonial</h2>
+        <p class="subtitle m-5 p-5 has-text-centered">Find below what people around me say about me
+        </p></div>
+        
+        
+        <div class="content columns is-centered ">
+
+          <div class="testimonialBx column is-5 card m-5 p-5 pb-1" >
+           <h2 class="mainqoute" >Up to challenges, push herself and other to keep moving forward    </h2>
+           <h3 class="by1">Mrs.Nada</h3> 
+           <h4 class="by2">Vice president of Bader Al-Deen Al-Hassani Society</h4>
+         </div>
+        
+        <div class="testimonialBx column is-5 card m-5 p-5 pb-1">
+          <h2 class="mainqoute" >Friendly person, honest and trustworthy.   </h2>
+          <h3 class="by1">Mr. Omar</h3> 
+          <h4 class="by2">Direct Manager in MTN corporation</h4>
+          </div>
+       
+          </div>
+        </section>
+        
+
+        <section class="contact" id="contact">
+          <div class="heading white">
+          <h2 class="title m-5 has-text-centered">Contact Me</h2>
+          <p class="subtitle p-5 m-5 has-text-centered">Good day my friend, I hope you are doing great.. <br> if you need me you can reach me by:</p>
+          </div>
+          <div class="content columns m-2 p-2">
+          
+            <div class="contactinfo column">
+              <h3>Contact Info</h3>
+              <div class="contactinfoBx">
+              <div class="box m-3 p-3">   
+                  <div class="icon " > <i style="color:#F14668" class="fa fa-map-marker"> </i>    </div>
+                   <span>Address</span>
+                  <p>Damascus, Syria  <br> kafersosah </p>
+                  
+              </div>
+          
+              <div class="box m-3 p-3">   
+                  <div class="icon "> <i class="fa fa-phone" style="color:#F14668"></i></div>
+                    <span>Phone</span>
+                  <p>0993812814 - 0949361159 </p>
+                  </div>
+              
+              <div class="box m-3 p-3">   
+                  <div class="icon ">  <i class="fa fa-envelope" style="color:#F14668"></i></div>
+                    <span>Email</span>
+                  <p>rama.said.bitar@gmail.com</p>
+                  
+              </div>
+              
+              <div class="box m-3 p-3">   
+                <div class="icon ">  <i class="fa fa-address-card" style="color:#F14668"></i></div>
+                 <span>My CV</span>
+                <p><a class="cv" href="Rama Bitar CV.pdf" > View my CV</a></p>
+                </div>
+            
+          </div>
+        </div>
+
+          <div class="formBx column">
+            <form  class="box column ">
+      
+              <div class="field">
+                <label class="label">Name</label>
+                <div class="control ">
+                  <input class="input" type="text" placeholder="e.g. johnsmith">
+                </div>
+              </div>
+            
+              <div class="field">
+                <label class="label">Email</label>
+                <div class="control">
+                  <input class="input  " type="email" placeholder="e.g. alex@example.com" readonly>
+                </div>
+              </div>
+            
+              <div class="field">
+                <label class="label">Number</label>
+                <div class="control">
+                  <input class="input" type="tel" placeholder="00963912456789">
+                </div>
+              </div>
+              
+        
+   
+              <div class="field">
+                <label class="label">Message</label>
+                <div class="control is-centered">
+                  <textarea placeholder="I hope this message find you in good health.." class="textarea has-fixed-size is-danger is-medium"></textarea>
+                </div>
+              </div>
+            </form>    
+            
+          </div>
+          </div>
+          </section>
+  
+
+  <!-- the needed script to name the selected uploaded file  -->
+  <script>
+    const fileInput = document.querySelector('#file-js-example input[type=file]');
+    fileInput.onchange = () => {
+      if (fileInput.files.length > 0) {
+        const fileName = document.querySelector('#file-js-example .file-name');
+        fileName.textContent = fileInput.files[0].name;
+      }
+    }
+  </script>
+
+
+
+
+
+
+<script>
+
+document.addEventListener('DOMContentLoaded', () => {
+  (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
+    const $notification = $delete.parentNode;
+
+    $delete.addEventListener('click', () => {
+      $notification.parentNode.removeChild($notification);
+    });
+  });
+});
+
+</script>
+ 
+
+
+
+
+<script>
+
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("myBar").style.width = scrolled + "%";
+}
+
+  </script>
+  
+ 
+<script>
+var dropdown = document.getElementsByClassName('dropdown');
+for (let index = 0; index < dropdown.length; index++) {
+  const element = dropdown[index];
+element.addEventListener('click', function(event) {
+  event.stopPropagation();
+  element.classList.toggle('is-active');
+})
+}
+;
+</script>
+
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  (document.querySelectorAll('.notification .delete') || []).forEach(($delete) => {
+    const $notification = $delete.parentNode;
+
+    $delete.addEventListener('click', () => {
+      $notification.parentNode.removeChild($notification);
+    });
+  });
+});
+</script>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  (document.querySelectorAll('.delete') || []).forEach(($delete) => {
+    const $message = $delete.parentNode.parentNode;
+
+    $delete.addEventListener('click', () => {
+      $message.parentNode.removeChild($message);
+    });
+  });
+});
+
+
+
+  </script>
+
+
+
+<script>
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Functions to open and close a modal
+  function openModal($el) {
+    $el.classList.add('is-active');
+  }
+
+  function closeModal($el) {
+    $el.classList.remove('is-active');
+  }
+
+  function closeAllModals() {
+    (document.querySelectorAll('.modal') || []).forEach(($modal) => {
+      closeModal($modal);
+    });
+  }
+
+  // Add a click event on buttons to open a specific modal
+  (document.querySelectorAll('.js-modal-trigger') || []).forEach(($trigger) => {
+    const modal = $trigger.dataset.target;
+    const $target = document.getElementById(modal);
+
+    $trigger.addEventListener('click', () => {
+      openModal($target);
+    });
+  });
+
+  // Add a click event on various child elements to close the parent modal
+  (document.querySelectorAll('.modal-background, .modal-close, .modal-card-head .delete, .modal-card-foot .button') || []).forEach(($close) => {
+    const $target = $close.closest('.modal');
+
+    $close.addEventListener('click', () => {
+      closeModal($target);
+    });
+  });
+
+  // Add a keyboard event to close all modals
+  document.addEventListener('keydown', (event) => {
+    const e = event || window.event;
+
+    if (e.keyCode === 27) { // Escape key
+      closeAllModals();
+    }
+  });
+});
+
+</script>
+
+<!-- for the burger expand and disexpand -->
+<script>
+
+document.addEventListener('DOMContentLoaded', () => {
+
+// Get all "navbar-burger" elements
+const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+// Add a click event on each of them
+$navbarBurgers.forEach( el => {
+  el.addEventListener('click', () => {
+
+    // Get the target from the "data-target" attribute
+    const target = el.dataset.target;
+    const $target = document.getElementById(target);
+
+    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+    el.classList.toggle('is-active');
+    $target.classList.toggle('is-active');
+
+  });
+});
+
+});
+
+</script>
+
+</body>
+</html>
