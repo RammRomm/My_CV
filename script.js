@@ -110,4 +110,25 @@ timeLine
       },
       scale: 0.75,
     }
+  )
+	
+	
+  .fromTo(
+    ".line_nu",
+    {
+      fill: "#ccc",
+      stagger: 0.5,
+      duration: 2,
+      ease: "elastic",
+    },
+    {
+      stagger: 0.5,
+
+      fill: "#f14668",
+      duration: 2,
+      ease: "elastic",
+    }
   );
+
+	
+	;
